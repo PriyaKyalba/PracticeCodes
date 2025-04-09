@@ -2,15 +2,17 @@
 create methods for debit,credit,& printing the balace."""
 
 class Account:
+    
     def __init__(self , balance , acc):
         self.balance = balance
         self.acc = acc
-    def debit(self,amount):
+
+    def debit(self , amount):
         self.balance -= amount
         print("$",amount,"was debited")
         print("balance = ",self.balance)
 
-    def credit(self,amount):
+    def credit(self , amount):
         self.balance += amount
         print("$",amount,"was credited")
         print("balance = ",self.balance)

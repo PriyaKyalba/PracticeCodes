@@ -1,4 +1,4 @@
-str = "i am a coder"
+str = " i am a coder"
 print(str.endswith("er"))
 print(str.capitalize())
 print(str.replace("o","a"))
